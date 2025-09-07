@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Event | TicketDorm</title>
+  <link rel="stylesheet" href="/CSS/selltickets.css">
+</head>
+<style>
+    .progress-bar {
+         width: 66%; 
+        }
+
+    .form-container{
+        height: 60vh;
+    }
+</style>
+<body>
+
+  <div class="form-container">
+    <div class="form-header">
+      <span class="back-arrow"><a href="selltickets.html"><img src="/images/back.svg" alt="Back"></a></span>
+      <div class="header-progress">
+         <h2>Step of 2 of 3 : Create Event</h2>
+      <div class="progress-bar-container">
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+     
+    </div>
+
+    <form>
+      <label for="event-price">Ticket Price in Naira (Enter 0 for a free event) <span>*</span></label>
+      <input type="text" id="event-price" required>
+
+      <label for="event-capacity">Event Capacity <span>*</span></label>
+       <input type="text" id="event-capacity" required>
+
+      <label for="event-about">About Event <span>*</span></label>
+      <textarea id="event-about" required></textarea>
+     
+      <button type="submit" class="continue-btn"><a href="selltickets3.html">Continue</a></button>
+    </form>
+  </div>
+
+</body>
+</html>

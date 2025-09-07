@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Event | TicketDorm</title>
+  <link rel="stylesheet" href="/CSS/selltickets.css">
+</head>
+<style>
+    .progress-bar{
+        width: 33%;
+    }
+</style>
+<body>
+
+  <div class="form-container">
+    <div class="form-header">
+      <span class="back-arrow"><a href="index.html"> <img src="/images/back.svg" alt="Back"></a></span>
+      <h2>Step of 1 of 3 : About Event</h2>
+      <div class="progress-bar"></div>
+    </div>
+
+    <form>
+      <label for="event-type">What type of event do you want to host? <span>*</span></label>
+      <select id="event-type" required>
+        <option value="concert">Concert</option>
+        <option value="party">Party</option>
+        <option value="comedy">Comedy</option>
+        <option value="health & wellbeing">Health & Wellbeing</option>
+        <option value="food & drinks">Food & Drinks</option>
+        <option value="sport & fitness">Sport & Fitness</option>
+        <option value="religion">Religion</option>
+        <option value="others">Others</option>
+      </select>
+
+      <label for="event-name">What name would you like to call your event? <span>*</span></label>
+      <input type="text" id="event-name" required>
+
+      <label for="event-description">Briefly tell your audience what this event is about <span>*</span></label>
+      <textarea id="event-description" required></textarea>
+
+      <label for="event-date">Event Date, Time and Duration <span>*</span></label>
+      <div class="event-datetime">
+        <input type="date" id="event-date" required>
+        <input type="time" id="event-time" required>
+        <input type="text" placeholder="Duration" required>
+      </div>
+
+      <label for="event-photo">Upload a cover photo for your event <span>*</span></label>
+      <input type="file" id="event-photo" required>
+
+      <label for="event-location">Location <span>*</span></label>
+      <input type="text" id="event-location" required>
+
+      <button type="submit" class="continue-btn"><a href="selltickets2.html">Continue</a></button>
+    </form>
+  </div>
+
+</body>
+</html>
