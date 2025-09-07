@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f6fb;
+}
+
+.form-container {
+  background: white;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  height: 90vh;
+}
+
+.form-header {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form-header h2 {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0 0 5px 30px;
+      display: inline-block;
+    }
+
+    .header-progress {
+      display: inline-block;
+      margin-left: 30px;   
+    }
+
+    .progress-bar-container {
+      background: #eee;
+      height: 3px;
+      border-radius: 5px;
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .progress-bar {
+      height: 100%; 
+      background: #0056a3;
+    }
+
+.back-arrow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #99b2d6;
+    text-decoration: none;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+}
+
+form label span {
+  color: red;
+}
+
+.event-type-select {
+      display: block;
+      width: fit-content; 
+      min-width: 400px;    
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      font-size: 15px;
+    }
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+.event-datetime {
+  display: flex;
+  gap: 10px;
+}
+
+.event-datetime input {
+  flex: 1;
+}
+
+.continue-btn {
+  margin-top: 20px;
+  width: 20%;
+  padding: 12px;
+  float: right;
+  background: #004080;
+  border: none;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;   
+}
+
+.continue-btn a{
+    text-decoration: none; 
+    color: white;
+}
+.continue-btn:hover {
+  background: #003366;
+}

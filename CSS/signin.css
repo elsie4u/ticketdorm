@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 50px;
+    background: transparent;
+}
+
+.back-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #99b2d6;
+    text-decoration: none;
+}
+
+.back-btn img {
+    width: 18px;
+    height: 18px;
+}
+
+.logo a{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.top{
+    margin: 0;
+    padding: 50px;
+display: flex;
+}
+
+form{
+   justify-content: center;
+    align-items: center;
+}
+.container {
+    flex: 1; 
+    display: flex;
+    padding-top: 0.00px;
+    height: 100%;
+}
+
+h2{
+    padding-top: 0%;
+}
+.form-box {
+    height: 100vh;
+    width: 100vw;
+    max-width: 400px;
+    background: transparent;
+    padding: 20px;
+    border-radius: 6px;
+    padding-left:250px;
+     justify-content: center;
+    align-items: center;
+}
+
+.form-box h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #111;
+    padding-top: 0%;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0 20px;
+    font-size: 20px;
+}
+
+.options label {
+    font-size: 15px;
+}
+
+.options a {
+    text-decoration: none;
+    color: #174580;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: #d400f5;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.signup a {
+    text-decoration: none;
+    color: #174580;
+    font-weight: bold;
+}
